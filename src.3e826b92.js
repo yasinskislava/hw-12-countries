@@ -552,7 +552,6 @@ searchbar.addEventListener("input", (0, _index.default)(function () {
       }
       searchList.style.marginLeft = "440px";
       searchList.innerHTML = "\n            <div class=\"card\">\n                <h2 class=\"title\">".concat(countryList[0].name.common, "</h2>\n                <div class=\"box\">\n                    <ul class=\"list\">\n                        <li><b>Capital:</b> ").concat(countryList[0].capital[0], "</li>\n                        <li><b>Population:</b> ").concat(countryList[0].population, "</li>\n                        <li>\n                            <b>Languages:</b>\n                            <ul class=\"list languagesList\">\n                                ").concat(languagesMarkUp, "\n                            </ul>\n                        </li>\n                    </ul>\n                    <img src=\"").concat(countryList[0].flags.png, "\">\n                </div>\n            </div>");
-      console.log(countryList[0]);
     } else {
       (0, _PNotify.error)({
         text: "No countries found!"
@@ -562,4 +561,4 @@ searchbar.addEventListener("input", (0, _index.default)(function () {
   });
 }, 500));
 },{"../node_modules/@pnotify/core/dist/PNotify.js":"txz9","../node_modules/@pnotify/mobile/dist/PNotifyMobile.js":"ad6a","../node_modules/lodash.debounce/index.js":"PZFh"}]},{},["Focm"], null)
-//# sourceMappingURL=src.965321bc.js.map
+//# sourceMappingURL=src.3e826b92.js.map
