@@ -70,7 +70,6 @@ searchbar.addEventListener(
                     <img src="${countryList[0].flags.png}">
                 </div>
             </div>`;
-          console.log(countryList[0]);
         } else {
           error({
             text: "No countries found!",
