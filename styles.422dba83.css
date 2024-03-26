@@ -1,0 +1,62 @@
+input {
+  width: 300px;
+  height: 30px;
+  font-family: "Roboto";
+  padding: 0;
+  display: block;
+  margin-left: calc(50% - 150px);
+}
+
+:root {
+  font-family: "Roboto";
+}
+
+#searchList {
+  width: 640px;
+  margin: 0;
+  padding: 0;
+  list-style: decimal;
+  margin-left: 440px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  font-family: "Roboto";
+  font-size: x-large;
+}
+
+.list {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.languagesList {
+  margin-left: 30px;
+  list-style: disc;
+}
+
+
+/*# sourceMappingURL=%27https:/github.com/yasinskislava/hw-12-countries%27/styles.422dba83.css.map */
